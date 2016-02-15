@@ -7,6 +7,7 @@ node_js:
 install:
   - npm install
   - npm install -g mocha
-before_script:
-  - node server.js
-  - node test.js
+  
+#before_script:
+  #- node server.js
+  #- node test.js
